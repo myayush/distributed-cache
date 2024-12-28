@@ -1,0 +1,34 @@
+# Binary files
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Generated Protocol Buffer files
+/proto/cache/v1/*.pb.go
+/proto/cache/v1/*_grpc.pb.go
+
+# Build and debug files
+*.out
+*.test
+debug
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/

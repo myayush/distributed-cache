@@ -1,0 +1,10 @@
+services:
+  cache:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "50051:50051"
+    environment:
+      - CACHE_MAX_MEMORY_MB=128
+    restart: unless-stopped

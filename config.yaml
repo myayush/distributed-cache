@@ -1,0 +1,4 @@
+server:
+  port: 50051
+  max_memory_mb: 1024
+  default_ttl_seconds: 3600
